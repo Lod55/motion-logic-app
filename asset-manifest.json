@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/motion-logic-app/static/css/main.be36e413.chunk.css",
-    "main.js": "/motion-logic-app/static/js/main.e09cf631.chunk.js",
-    "main.js.map": "/motion-logic-app/static/js/main.e09cf631.chunk.js.map",
+    "main.css": "/motion-logic-app/static/css/main.d30a248f.chunk.css",
+    "main.js": "/motion-logic-app/static/js/main.4e1777d0.chunk.js",
+    "main.js.map": "/motion-logic-app/static/js/main.4e1777d0.chunk.js.map",
     "runtime-main.js": "/motion-logic-app/static/js/runtime-main.4ee8cf50.js",
     "runtime-main.js.map": "/motion-logic-app/static/js/runtime-main.4ee8cf50.js.map",
-    "static/js/2.ea1211be.chunk.js": "/motion-logic-app/static/js/2.ea1211be.chunk.js",
-    "static/js/2.ea1211be.chunk.js.map": "/motion-logic-app/static/js/2.ea1211be.chunk.js.map",
+    "static/js/2.9ef68483.chunk.js": "/motion-logic-app/static/js/2.9ef68483.chunk.js",
+    "static/js/2.9ef68483.chunk.js.map": "/motion-logic-app/static/js/2.9ef68483.chunk.js.map",
     "static/js/3.c0502825.chunk.js": "/motion-logic-app/static/js/3.c0502825.chunk.js",
     "static/js/3.c0502825.chunk.js.map": "/motion-logic-app/static/js/3.c0502825.chunk.js.map",
     "index.html": "/motion-logic-app/index.html",
-    "static/css/main.be36e413.chunk.css.map": "/motion-logic-app/static/css/main.be36e413.chunk.css.map",
-    "static/js/2.ea1211be.chunk.js.LICENSE.txt": "/motion-logic-app/static/js/2.ea1211be.chunk.js.LICENSE.txt"
+    "static/css/main.d30a248f.chunk.css.map": "/motion-logic-app/static/css/main.d30a248f.chunk.css.map",
+    "static/js/2.9ef68483.chunk.js.LICENSE.txt": "/motion-logic-app/static/js/2.9ef68483.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4ee8cf50.js",
-    "static/js/2.ea1211be.chunk.js",
-    "static/css/main.be36e413.chunk.css",
-    "static/js/main.e09cf631.chunk.js"
+    "static/js/2.9ef68483.chunk.js",
+    "static/css/main.d30a248f.chunk.css",
+    "static/js/main.4e1777d0.chunk.js"
   ]
 }
