@@ -49,7 +49,7 @@ const FormSearch = ({ onChange, setIsSearch, addFullList, cities }) => {
         </button>
         <p>{`Кол-во городов: ${cities.length}`}</p>
         <button
-          type="reset"
+          type="button"
           className={`waves-effect waves-light btn ${isFullList && 'disabled'}`}
           onClick={clickHandlerFullList}
         >
