@@ -21,6 +21,7 @@ const FormSearch = ({ onChange, setIsSearch, addFullList, cities }) => {
 
   const clickHandlerFullList = () => {
     setIsFulllist(true);
+    setIsSearch(false);
     addFullList();
   };
 
@@ -46,6 +47,7 @@ const FormSearch = ({ onChange, setIsSearch, addFullList, cities }) => {
         >
           Сбросить
         </button>
+        <p>{`Кол-во городов: ${cities.length}`}</p>
         <button
           type="reset"
           className={`waves-effect waves-light btn ${isFullList && 'disabled'}`}

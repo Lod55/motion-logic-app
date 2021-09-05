@@ -71,8 +71,10 @@ function App() {
     setIsFirstLoading(false);
     if (!currentCities) getCitiesData();
 
-    setCitiesSave(currentCities.filter((city) => city.isSave));
-    setCities(currentCities);
+    if (currentCities) {
+      setCitiesSave(currentCities.filter((city) => city.isSave));
+      setCities(currentCities);
+    }
   }, []);
 
   return (
@@ -81,16 +83,16 @@ function App() {
       <div className="container">
         <Switch>
           <Route path="/" exact>
+            <AboutPage />
+          </Route>
+
+          <Route path="/search">
             <SearchPage
               onSave={saveHandler}
               searchValue={searchValue}
               onChange={handleChange}
               addFullList={addFullList}
             />
-          </Route>
-
-          <Route path="/about">
-            <AboutPage />
           </Route>
 
           <Route path="/table">
