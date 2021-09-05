@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## Тестовое задание от компании Motion Logic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Задание 
 
-## Available Scripts
+> Реализовать поиск городов с возможностью добавления в таблицу. При вводе в поле инпута, выводится список,
+> предлагающий подходящие варианты. Варианты городов выводятся после ввода 3 и более символов. После выбора, поле инпута и список
+> должны обнуляться. Список городов можно получить из любого открытого api. В таблице нужно сделать несколько колонок, например:
+> название города, население, регион. Нужный функционал таблицы: удаление городов, сортировка и фильтрация по колонкам. Необходимо
+> использовать функциональные компоненты и соответственно хуки.
+> Таблицу надо сделать, используя библиотеку [react-table](https://react-table.tanstack.com/)
 
-In the project directory, you can run:
+### Установка проекта
 
-### `npm start`
+Для начала работы вам необходим:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- <a href="https://nodejs.org/en/">NodeJS & npm<a> - среда выполенния кода JavaScript вне браузера. Позволяет писать серверныфй код для динамических веб-страниц и веб-приложений.
+- <a href="https://gitforwindows.org/">Git Bash<a> если вы используете Windows OS.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Скопируйте проект на компьютер:
 
-### `npm test`
+```
+git clone https://github.com/Lod55/motion-logic-app.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Установите зависимости:
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Запуск и билд
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Для локальной разработки с поднятием сервера используйте:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run start
+```
 
-### `npm run eject`
+Для сборки версии в продакшен:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm run build
+```
