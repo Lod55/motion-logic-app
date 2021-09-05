@@ -22,7 +22,7 @@ const AboutPage = () => {
           localStorage
         </li>
         <li className="collection-header">
-          <h3>Поиска</h3>  
+          <h3>Поиск</h3>  
         </li>
         <li className="collection-item">
           Динамический поиск по введенному запросу начиная от 3х символов
