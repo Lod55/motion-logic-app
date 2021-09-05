@@ -1,26 +1,26 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
     <nav>
       <div className="nav-wrapper  teal darken-2">
-        <NavLink to="/" className="brand-logo center">
+        <Link to="/" className="brand-logo center">
           Поиск городов
-        </NavLink>
+        </Link>
         <ul id="nav-mobile" className="left hide-on-med-and-down">
           <li>
-            <NavLink activeClassName="active" to="/">
+            <NavLink activeClassName="menu-item_active" to="/about">
               Информация
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/search">
+            <NavLink activeClassName="menu-item_active" to="/search">
               Поиск
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/table">
+            <NavLink activeClassName="menu-item_active" to="/table">
               Таблица
             </NavLink>
           </li>

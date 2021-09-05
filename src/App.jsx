@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 import { getData } from './api/api';
 import { searchByName } from './utils/search';
@@ -82,11 +82,11 @@ function App() {
       <NavBar />
       <div className="container">
         <Switch>
-          <Route path="/" exact>
+          <Route path="/about" exact>
             <AboutPage />
           </Route>
 
-          <Route path="/search">
+          <Route path="/search" exact>
             <SearchPage
               onSave={saveHandler}
               searchValue={searchValue}
@@ -95,8 +95,12 @@ function App() {
             />
           </Route>
 
-          <Route path="/table">
+          <Route path="/table" exact>
             <TablePage cities={citiesSave} onRemove={removeHandler} />
+          </Route>
+
+          <Route path="*">
+            <Redirect to="/about" />
           </Route>
         </Switch>
       </div>

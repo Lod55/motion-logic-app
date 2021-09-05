@@ -16,6 +16,11 @@ code {
   margin-top: 2rem;
 }
 
+.menu-item_active {
+  background-color: #076d5f;
+  cursor: default;
+}
+
 .cities {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
