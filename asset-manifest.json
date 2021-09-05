@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/motion-logic-app/static/css/main.bcde4d48.chunk.css",
+    "main.js": "/motion-logic-app/static/js/main.28e29c36.chunk.js",
+    "main.js.map": "/motion-logic-app/static/js/main.28e29c36.chunk.js.map",
+    "runtime-main.js": "/motion-logic-app/static/js/runtime-main.4ee8cf50.js",
+    "runtime-main.js.map": "/motion-logic-app/static/js/runtime-main.4ee8cf50.js.map",
+    "static/js/2.a47eab1e.chunk.js": "/motion-logic-app/static/js/2.a47eab1e.chunk.js",
+    "static/js/2.a47eab1e.chunk.js.map": "/motion-logic-app/static/js/2.a47eab1e.chunk.js.map",
+    "static/js/3.c0502825.chunk.js": "/motion-logic-app/static/js/3.c0502825.chunk.js",
+    "static/js/3.c0502825.chunk.js.map": "/motion-logic-app/static/js/3.c0502825.chunk.js.map",
+    "index.html": "/motion-logic-app/index.html",
+    "static/css/main.bcde4d48.chunk.css.map": "/motion-logic-app/static/css/main.bcde4d48.chunk.css.map",
+    "static/js/2.a47eab1e.chunk.js.LICENSE.txt": "/motion-logic-app/static/js/2.a47eab1e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ee8cf50.js",
+    "static/js/2.a47eab1e.chunk.js",
+    "static/css/main.bcde4d48.chunk.css",
+    "static/js/main.28e29c36.chunk.js"
+  ]
+}
