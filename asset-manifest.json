@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/motion-logic-app/static/css/main.d30a248f.chunk.css",
-    "main.js": "/motion-logic-app/static/js/main.4e1777d0.chunk.js",
-    "main.js.map": "/motion-logic-app/static/js/main.4e1777d0.chunk.js.map",
+    "main.js": "/motion-logic-app/static/js/main.36f43036.chunk.js",
+    "main.js.map": "/motion-logic-app/static/js/main.36f43036.chunk.js.map",
     "runtime-main.js": "/motion-logic-app/static/js/runtime-main.4ee8cf50.js",
     "runtime-main.js.map": "/motion-logic-app/static/js/runtime-main.4ee8cf50.js.map",
     "static/js/2.9ef68483.chunk.js": "/motion-logic-app/static/js/2.9ef68483.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4ee8cf50.js",
     "static/js/2.9ef68483.chunk.js",
     "static/css/main.d30a248f.chunk.css",
-    "static/js/main.4e1777d0.chunk.js"
+    "static/js/main.36f43036.chunk.js"
   ]
 }
