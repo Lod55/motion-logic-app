@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import { getData } from './api/api';
 import { searchByName } from './utils/search';
@@ -78,7 +78,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <>
       <NavBar />
       <div className="container">
         <Switch>
@@ -100,7 +100,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 
